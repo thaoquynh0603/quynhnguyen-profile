@@ -1,0 +1,375 @@
+@media screen and (max-width: 3000px) {
+  :root{
+    --white-color: #fff;
+    --black-color: rgb(39, 39, 39);
+    --text-color: rgb(22, 22, 22);
+    --theme-color: #fdb600;
+    --page-color: #F5F6F8;
+  }
+
+  html {
+    font-size: 14px;
+    line-height: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body{
+    position: relative;
+    background-color: var(--page-color);
+  }
+
+  .grid{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .grid_row{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .bold{
+    font-weight: 600;
+  }
+
+  .profile-img{
+    width: 80%;
+    height: 10vw;
+    overflow: hidden;
+    border-radius: 5% 16% 40% 25%;
+    margin-bottom: 20px;
+  }
+
+  #profile-img {
+    width: 100%; 
+    height: auto;  
+    margin-top: 20px;
+    transform: translateY(-10px) scale(1.5);
+  }
+
+  .navigation_responsive{
+    display: none;
+  }
+
+  .navigation{
+    width: 25% ;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .navigation_container{
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-right: 0;
+  }
+
+  .intro-name{
+    font-size: 250%;
+    line-height: 110%;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .intro-title{
+    margin-top: 5px;
+    font-size: 120%;
+  }
+
+  .category{
+    margin-top: 30px;
+  }
+
+  .category_list{
+    list-style: none;
+    padding: 0;
+  }
+
+  .category_item{
+    font-size: 130%;
+    line-height: 90%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .category_item_a{
+    text-decoration: none;
+    color: var(--text-color)
+  }
+
+  .category_item_a:hover{
+    color: var(--text-color) !important
+  }
+
+  .category_item:hover{
+    /* font-weight: bold; */
+    border-left: 4px solid var(--theme-color);
+    padding-left: 5px;
+    /* add a transformation */
+  }
+
+  .category_item:active{
+    font-weight: bold;
+    border-left: 4px solid var(--theme-color);
+    padding-left: 5px; 
+  }
+
+  .body{
+    width: 70%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 30%;
+  }
+
+
+  .title{
+    color: var(--theme-color);
+  }
+
+
+
+  .separator{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: #FDB600 solid 3px 
+  }
+
+
+
+  .button{
+    border: solid 2px var(--theme-color);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* font-size: 15px; */
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--theme-color);
+    color: var(--page-color);
+  }
+
+  .button:hover{
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+
+  .button:active{
+    box-shadow: inset 1px 2px 0px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+  .social-media{
+    display:flex;
+    margin-top: 30px;
+  }
+
+  .social-media-item{
+    margin-right: 10px;
+  }
+
+  .social-media-item a{
+    text-decoration: none;
+    color: var(--theme-color);
+    font-size: 30px
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .navigation{
+    width: 100% ;
+    position: relative;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .grid{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .navigation_container{
+    display: none;
+  }
+
+  .grid_nav{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .navigation_responsive #category_item_about{
+    display: none;
+  }
+
+  .navigation_responsive{
+    display:block;
+    position: fixed;
+    background-color: var(--theme-color);
+    top:0;
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    z-index: 10;
+    transition: height 0.3s ease;
+  }
+
+  .navigation_responsive:hover{
+    height: 150px;
+  }
+
+  .navigation_responsive .res_open{
+    font-size: 30px;
+    color: var(--page-color);
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+
+  .navigation_responsive .intro{
+    width: 60%;
+    margin-left: 20px;
+    
+  }
+
+  .navigation_responsive .intro a{
+    text-decoration: none;
+    color: var(--page-color);
+    font-weight: 400;
+  }
+
+  .navigation_responsive .category_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .navigation_responsive .category_item{
+    width: 33%;
+    margin: 5px 0px;
+  }
+
+  .navigation_responsive .category_item a{
+    text-transform: uppercase;
+    width: 100%;
+    color: var(--page-color);
+  }
+
+  .navigation_responsive .category_item{
+    padding: 5px 10px;
+    border-left: solid 5px white;
+    transition: margin-left 0.2s ease-out;
+  }
+
+  .navigation_responsive .category_item:hover{
+    border-left: solid 5px var(--text-color);
+    margin-left: 5px;
+  }
+
+  .navigation_responsive .category_item:hover .category_item_a{
+    color: var(--text-color)
+  }
+
+  .body{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0% 
+  }
+
+  #welcome{
+    margin-top: 20%;
+  }
+
+  #contact .grid_row{
+    display: block;
+  }
+
+  #contact .contact-information-container{
+    width: 100%;
+  }
+
+  #contact .more-contact-detail{
+    width: 100%;
+  }
+
+  #contact .contact-form{
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid_row{
+    position: relative;
+    display: block;
+  }
+
+  .navigation_responsive .intro{
+    width: 80%;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .navigation_responsive .intro a{
+    text-decoration: none;
+    color: var(--page-color);
+    font-weight: 400;
+  }
+
+  .navigation_responsive .category_item{
+    width: 30%;
+    margin: 5px 0px;
+  }
+
+  #education .education_more div{
+    margin-bottom: 20px;
+  }
+
+  #skills .skill-section{
+    width: 100%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  #project .project_section {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+} 
+  #qualification .qualification-item{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+  #qualification .qua-descrip{
+    border-top: 2px solid var(--theme-color);
+    padding: 20px;
+    min-height: 200px;
+  }
+
+  #contact .contact-information-container{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #contact .more-contact-detail{
+    width: 100%;
+  }
+
+  #contact .contact-form{
+    width: 100%;
+  }
+}
+

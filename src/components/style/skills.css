@@ -1,0 +1,46 @@
+.skills{
+    margin-top: 50px;
+  }
+  
+.skill-type{
+    font-size: 20px;
+  }
+  
+  
+.skill-section{
+    /* display: inline-block; */
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+.skill-type{
+    margin-bottom: 20px;
+}
+
+/* .skills-container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+} */
+
+#ComputerLanguage_chart {
+    height: 260px;
+    width: 100%;
+}
+
+#Software_tools_chart  {
+    height: 320px;
+    width: 130%;
+    margin-top: -40px;
+}
+
+#Softskills_chart{
+    height: 320px;
+    width: 120%;
+}
+
+#Knowledge_chart{
+    height: 340px;
+    width: 130%;
+    margin-top: -40px;
+}

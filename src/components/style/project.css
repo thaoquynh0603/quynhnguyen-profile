@@ -1,0 +1,128 @@
+/* .project-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } */
+
+.project_section {
+    position: relative;
+    width: 49%; /* Adjust the width as needed */
+    border: 2px solid var(--theme-color);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    transition: width 0.2s ease;
+} 
+
+.project_section:hover{
+    background-color: var(--theme-color);
+}
+.project_title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.project_section:hover .project_title{
+    color: var(--white-color);
+}
+
+.project_year{
+    font-weight: 200;
+}
+
+.projectItem_Item{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    width: 300px;
+}
+
+
+
+.project_expand{
+    position: absolute; /* Positioning the icon */
+    bottom: 0px; /* Placing at the bottom */
+    right: 5px; /* Placing at the right */
+    font-size: 24px; /* Adjusting icon size */
+    padding: 10px;
+    transition: font-size 0.1s ease;
+}
+
+.project_expand #contract {
+    display: none
+}
+
+.icon_changed #expand {
+    display: none;
+}
+
+.icon_changed #contract {
+    display: block;
+}
+
+.project_expand:hover{
+    font-size: 40px;
+    color: var(--white-color);
+}
+
+.projectDetail{
+    display: none;
+}
+
+.detail_changed{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.detail_changed .projectDescription_item{
+    margin-bottom: 5px;
+}
+
+.section_changed{
+    width: 100%;
+    background-color: var(--theme-color);
+}
+
+.section_changed .project_title{
+    color: var(--white-color);
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.projectSkilltags{
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-bottom: 20px;
+}
+
+.projectSkilltags_item{
+    display: inline-block;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    color:  rgba(0, 0, 0, 0.5);
+}
+
+.projectSkilltags_item:hover{
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: var(--white-color)
+}
+
+.projectLink{
+    text-decoration: none; 
+    font-weight: 600;
+    color: black;
+    -top: 30px;
+    margin-right: 15px;
+   
+}
+
+.projectLink:hover{
+    color: var(--white-color);    
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 2px solid var(--white-color);
+    border-left: 2px solid var(--white-color) ;
+}

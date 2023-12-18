@@ -1,0 +1,48 @@
+.education_section{
+  margin-bottom: 30px;
+}
+.education_section_school{
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+.education_section_info{
+    margin-top: 5px;
+  }
+  
+.education_section_time{
+    font-weight: 100;
+  }
+  
+.education_section_time span{
+    color: var(--text-color);
+    font-style:normal;
+    font-weight: 500;
+  }
+
+.education_section_gpa{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: #FDB600 solid 3px;
+  }
+  
+  
+.education_more{
+    margin-top: -10px;
+    width: 700px;
+    margin-right: 20px;
+    justify-content: start;
+  }
+
+.education_more_but{
+  margin-right: 20px;
+}
+
+.education_section_achievement{
+    margin-top: 10px;
+}
+  
+.education_section_summary{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,74 @@
+.welcome{
+    /* display: flex; */
+    margin-top: 10%;
+    
+  }
+
+.welcome_greeting{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--theme-color);
+  line-height: 50px;
+  }
+.welcome_statement{
+    /* width: 500px; */
+    text-align: justify;
+    /* margin-top: 10px; */
+  }
+  
+.welcome_image{
+    margin-left: 50px;
+  }
+  
+.welcome_image_me{
+    width: 180px;
+    height: 280px;
+    position: absolute;
+    margin-left: 25px;
+    bottom: -50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    object-fit:cover;
+    filter: grayscale(0.80);
+  }
+
+.welcome_highlight{
+  padding: 10px 20px;
+  background-color: var(--theme-color);
+  border-radius: 10px;
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  margin-bottom: 100px;
+}
+
+.welcome_highlight.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.welcome_highlighted_icon{
+  font-size: 40px;
+  color: white;
+  margin-right: 20px;
+  transform: translateY(-5px);
+}
+
+.welcome_highlighted_message{
+  position: relative;
+
+}
+
+.welcome_highlighted_message::before{
+  content: '';
+  position: absolute;
+  bottom: 25px; /* Adjust this value to position the pointer */
+  left: -100px; /* Adjust this value to position the pointer */
+  border-style: solid;
+  border-color: transparent var(--theme-color) transparent transparent;
+  border-width: 15px 25px 15px 0px;
+}

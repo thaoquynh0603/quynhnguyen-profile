@@ -1,0 +1,282 @@
+{"name": "QUYNH NGUYEN ",
+ "title": "Data Science Enthusiast",
+ "github":"https://github.com/thaoquynh0603",
+ "img_source":"https://drive.google.com/uc?export=view&id=1vlR-dLfbdkVgX-p_zxDPxIsV7G8KJ1yv",
+ "greeting": "Nice to see you here!",
+ "description": ["I find joy in programming, researching, and learning data science, particularly machine learning. As I engage in problem-solving, this joy transforms into a devoted commitment.",
+                  "As a business enabler, my ultimate career goal is to optimize business performance through data science innovations. I achieve this by fostering clear communication, strong collaborations, critical thinking, and continuous upskilling.",
+                  "Backed by an extensive learning journey and diverse work experiences, I command proficiency in Python, SQL, MS Excel, PowerBI, and essential libraries (Pandas, Numpy, Tensorflow, Sklearn, etc). I possess exposure to cloud computing (Microsoft Azure, AWS) and big data frameworks (Hadoop, Spark), and confidently navigate Git, Web Development (React.js, Node.js) with ease. Most importantly, I never hesitate to challenge myself with new technology and knowledge.",
+		  "Last but not least, I’m a foodie, a Picasso wannabe, and a gleeful lovely introvert."],
+ "highlight": "I am currently seeking internship or graduate positions in the data science and machine learning realm. Feel free to reach out if there's a fitting opportunity. Thank you for your consideration!",
+ "education":[{
+    "school":"S P Jain School of Global Management",
+    "begin_year":"2021",
+    "end_year":"2024",
+    "program": "Bachelor of Data Science",
+    "GPA": "3.9/4.3 (Dean's Lister)",
+    "achievement": "Dean's Lister",
+    "knowledge": "Computer Programming, Data Structure and Algorithm, Statistics and Probability, Linear Algebra, Calculus, Data Warehouse and Integration, Machine Learning, Simulation Modelling, Object Relational and NoSQL Databases, Data Mining",
+    "school_link": "https://www.spjain.edu.au/",
+    "program_link": "https://www.spjain.edu.au/programs/undergraduate/bachelor-of-data-science"
+ },
+ {
+  "school":"Ton Duc Thang University",
+  "begin_year":"2020",
+  "end_year":"2021",
+  "program": "Bachelor of Marketing",
+  "GPA": "9.1/10",
+  "achievement": "",
+  "knowledge": "Marketing Principles, Microeconomics, Macroeconomics, Event Management, Statistics for Business and Economics",
+  "school_link": "https://www.tdtu.edu.vn/en",
+  "program_link": "https://fba.tdtu.edu.vn/en/standard-program/marketing"
+},
+ {
+  "school":"Quoc Hoc High School for the Gifted",
+  "begin_year":"2017",
+  "end_year":"2020",
+  "program": "Computer Science Specialization",
+  "GPA": "9.0/10",
+  "achievement": "",
+  "knowledge": "Competitive Programming, Data Structure and Algorithm",
+  "school_link": "https://www.linkedin.com/school/quochoc-hue/about/",
+  "program_link": ""
+}   
+],
+ "experience":[
+ {"experience":"Data Science Intern",
+    "company":"St Trinity Property Group",
+    "company_location":"North Strathfield, NSW, Australia",
+    "work_begin":"September 2023",
+    "work_end":"Current",
+    "task":["Extract clients and deals data from the CRM system using SQL; Preprocess raw data to ensure consistency and accuracy with Python.","Perform comprehensive analysis to discover significant insights related to customer expectations and acceptance of offers, identifying opportunities for improvement.","Create a mathematical model employing to segment customers to optimize the sales process, enhancing efficiency, and potentially optimizing sales process by 20%.","Build a text mining model to extract customer interests from associates’ call and appointment notes.", "Work with cross-functional teams to explain model features and communicate insights. "],
+    "skill":["SQL", "Python", "Data Analysis", "Text Mining", "Communication","Apache Hadoop","Git","CRM"]
+    },
+{"experience":"Research Intern",
+    "company":"NP Investment Research",
+    "company_location":"Remote, The USA",
+    "work_begin":"July 2023",
+    "work_end":"Current",
+    "task":["Conduct comprehensive research on technical indicators and models, with a specific focus on moving average models. ","Apply technical analysis concepts to design and develop a Python-based model for ETF trading recommendations, integrating moving average models. ","Achieve a milestone of 12% higher annual returns compared to a baseline model.","Prepare and communicate detailed reports on model methodology, model performance, exhibits, and investment recommendations."],
+    "skill":["Python", "Microsoft Excel", "Visualisation", "Financial Modelling", "Technical Analysis","Web Scrapping","Research Methodology and Writing in Finance"]
+    },
+  {"experience":"Business Analyst Intern",
+    "company":"Softline International",
+    "company_location":"Remote, Vietnam",
+    "work_begin":"November 2021",
+    "work_end":"March 2022",
+    "task":["Ensuring data accuracy and integrity of the databases by automating the data validation process.","Conduct web scraping to gather external data sources and compiled the information.","Build interactive dashboards and reports using Microsoft PowerBI, and DAX language skills. ","Communicate insights and findings to managers and stakeholders using well-structured reports and presentations."],
+    "skill":["Microsoft PowerBI", "Microsoft Excel", "Python", "SQL", "Communication","Web Scrapping","Data Gathering"]
+    },
+    {"experience":"Research Intern",
+    "company":"Think Tanks and Civil Societies Program",
+    "company_location":"Remote, The USA",
+    "work_begin":"April 2021",
+    "work_end":"July 2021",
+    "task":["Research the status of over 200 think tanks and the impact of these institutions on public policy and civil society in Southeast Asia.",  "Collect, process and cross-check data about think tanks.", "Use Microsoft Excel to analyse statistical summaries and visualise data.", "Write a report to explain the findings and create visualizations about the developing trends of these think tanks."],
+    "skill":["Research Methods", "Data Collection", "Research Synthesis", "Microsoft Excel"]
+  },
+  {"experience":"Marketing Executive",
+    "company":"Survival Skills Vietnam",
+    "company_location":"Ho Chi Minh City, Vietnam",
+    "work_begin":"Oct 2020",
+    "work_end":"Jun 2021",
+    "task":["Analyse the current trends using Google Trends and develop the marketing plan.",  "Run and monitor marketing campaigns.", "Design media posts, flyers, and brochures.", "Write contents for events, promotions, products, and campaigns of the company."],
+    "skill":["Digital Marketing", "Content Marketing", "Social Media", "Graphic Design"]
+  }],
+ "project":[
+ {
+      "name": "CRM Usability Categorization",
+      "date": 2023,
+      "projectype": "Enterprise Project",
+      "description":[
+       "Query the data from CRM system using SQL and prepare the data with Pandas and Numpy.",
+	"Build a mathematical model to define the level of compatibility betwen company's resources and client's requirements.",
+	"Build a text-mining model to analyze clients and sellers' comments to understand the client' needs and issues.",
+	"Leverage object-oriented programming to generate a CRM record object that can define its usability with information verification and status categorization.",
+	"Employ Apache Hadoop to process all historical records in the CRM system."
+      ],
+      "skill_tag": ["SQL", "Python", "Text Mining", "Object-oriented Programming", "Apache Hadoop"],
+      "difficult":3,    	
+	"sourceCode":"https://github.com/thaoquynh0603/sttrinitycrm"
+    },
+ {
+      "name": "Identifying Buy/Sell Signals using the Moving Average Model",
+      "date": 2023,
+      "projectype": "Research Project",
+      "description":[
+       "Apply the Moving Average Model to generate buy/sell/hold signals on the data of different ETFs from Yahoo Finance",
+	"Contribute to the programming algorithm of the model",
+	"Visualise the exhibits using Matplotlib, PowerBI and Microsoft Excel."
+      ],
+      "skill_tag": ["Visualization", "Python", "Microsoft Excel","PowerBI", "Finance Modelling"],
+      "difficult":3,    	
+	"sourceCode":"https://github.com/thaoquynh0603/npresearch"
+    },
+ {
+      "name": "Customer Segmentation with Clustering Algorithms",
+      "date": 2023,
+      "projectype": "Individual Project",
+      "description":[
+       "Exploratory Data Analysis to analyse the pattern of the data before fitting the data into the model.",
+"Data Cleaning and Preparation includes handling with missing values, unappropriate values and outliers. Besides, feature engineering, standardization and PCA method are also applied to improve the efficiency when fitting the data in the model.",
+"Unsupervised Machine Learning - Clustering task: fitting the data into K-means clustering and Agglomerative Clustering, visualising the results, evaluating the performance and intepreting the most efficienct clustering result."
+      ],
+      "skill_tag": ["EDA", "Data Preparation", "Unsupervised Learning"],
+      "difficult":2,    	
+	"sourceCode":"https://github.com/thaoquynh0603/cluster-analysis"
+    },
+ {
+      "name": "Nintendo Switch Game Recommendation",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "Scrape the game title and description from Wikipedia using BeautifulSoup4 and clean the data with Pandas.",
+	"Extract features from the game description using text mining techniques: text tokenizing, TF-IDF Vectorization",
+	"Recommend the game by finding the similar games with K-Mean Clustering and Cosine similarity." 
+      ],
+      "skill_tag": ["Data Scraping", "Text Mining", "Unsupervised Learning"],
+      "difficult":2,    	
+	"sourceCode":"https://github.com/thaoquynh0603/game-recommendation"
+    },
+  {
+      "name": "Rotten Fruit Classification",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "Build model that classify three types of fruits (orange, banana, apple) and its status (fresh or rotten).",
+	"Process the image and train the model using neutral network and transfer learning (VGG16 and ResNet50)" 
+      ],
+      "skill_tag": ["Tensorflow", "Neural Network", "Transfer Learning"],
+      "difficult":2,    	
+	"sourceCode":"https://github.com/thaoquynh0603/rotten-fruit-classification"
+    },
+  {
+      "name": "Cloud Usage Dashboard",
+      "date": 2022,
+      "projectype": "Enterprise Project",
+      "description":[
+        "A dashboard using multiple visual types (Table, Map, Bar Chart, Treemap, Scorecard), filter and DAX language to analyze the cloud usage by location, company, and category." 
+      ],
+      "skill_tag": ["Visualization", "PowerBI", "DAX"],
+      "difficult":2,    	
+	"sourceCode":""
+    },
+  {
+      "name": "E-commerce Interface: Pokemon Shop",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "A website using HTML, CSS and responsive front-end techniques to introduce about Hue City, Vietnam"
+      ],
+      "skill_tag": ["HTML", "CSS"],
+      "difficult":1,    	
+	"sourceCode":"https://github.com/thaoquynh0603/pokemon-shop",
+	"viewLink":"https://thaoquynh0603.github.io/pokemon-shop/"
+    },
+    {
+      "name": "Static Website: Introduction to Hue",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "A website using HTML, CSS and responsive front-end techniques to introduce about Hue City, Vietnam"
+      ],
+      "skill_tag": ["HTML", "CSS", "Front-end Development"],
+      "difficult":1,    	
+	"sourceCode":"https://github.com/thaoquynh0603/hue-city-html-css",
+	"viewLink":"https://thaoquynh0603.github.io/hue-city-html-css/"
+    },
+    {
+      "name": "Predicting House Prices using Multiple Regression",
+      "date": 2022,
+      "projectype": "Ìndividual Project",
+      "description":[
+        "Apply the knowledge about Linear Regression to observe the relationship between variables and predict the future value of a property.",
+        "Achieve the 11% difference between the model's prediction and the actual value."
+      ],
+      "skill_tag": ["Statistics", "Linear Regresson", "EDA", "Python"],
+      "difficult":1,	"sourceCode":"https://github.com/thaoquynh0603/multiple-regression-predict-house-price"
+    }
+    ],
+ "qualification":[
+    {
+      "certiname":"Big Data Specialisation, University of San Diago",
+      "date":"Sep 2023",
+      "description":"Big Data Modeling and Management Systems, Graph Analytics for Big Data, Big Data Integration and Processing, Machine Learning With Big Data.",
+      "link":"https://coursera.org/share/902f3dc58e60866762dc04695fe75804",
+      "image":"https://drive.google.com/uc?export=view&id=1RT_2UX2c3irh2hEIDz_ipFPq1LttXJfO"
+    },
+    {
+      "certiname":"SQL (Advanced) Certificate, Hackerrank",
+      "date":"Nov 2022",
+      "description":"Query optimization, data modeling, Indexing, window functions, and pivots in SQL.",
+      "link":"https://www.hackerrank.com/certificates/875275b62780",
+      "image":"https://drive.google.com/uc?export=view&id=10pCYFTdV1ER1LQ0KIrJr1lzPrEYRI7u5"
+    },
+    {
+      "certiname":"Machine Learning Specialisation, DeepLearning.AI",
+      "date":"Nov 2022",
+      "description":"Build ML models with NumPy & scikit-learn, build & train supervised and unsupervised models.",
+      "link":"https://www.coursera.org/account/accomplishments/specialization/certificate/HE5B542ZKK3M",
+      "image":"https://drive.google.com/uc?export=view&id=1ZYAI7nUljCiARNrvxQMyAs_C5wgEd3MD"
+    },
+    {
+      "certiname":"Getting Started with Deep Learning, NVIDIA DLI",
+      "date":"Oct 2022",
+      "description":"Data Augmentation and Deployment, Convolutional Neural Networks, Recurrent Neural Networks, Pre-Trained Model. ",
+      "link":"https://courses.nvidia.com/certificates/56265535baa74343b3c3f1c086c7c142/",
+      "image":"https://drive.google.com/uc?export=view&id=1jmMXOazM5-qSHDtcOgDo899uk054cvrr"
+    },
+    {
+      "certiname":"Microsoft Certified: Azure Fundamentals",
+      "date":"July 2022",
+      "description":"Foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      "link":"https://www.credly.com/badges/f6a91a00-560e-423e-9f2d-156fff8044fe/public_url",
+      "image":"https://drive.google.com/uc?export=view&id=13qRUduIyTbjcfi0YtgtMgFMGRW5eajYZ"
+    },
+    {
+      "certiname":"Fundamentals of Deep Learning, NVIDIA DLI",
+      "date":"June 2022",
+      "description":"Deep learning models in computer vision and natural language processing.",
+      "link":"https://courses.nvidia.com/certificates/3816c8d60575474085e0c957084a93e8/",
+      "image":"https://drive.google.com/uc?export=view&id=1md9DKOcE-pTrFDuCRKr6MCEKkZCehgks"
+    },
+    {
+      "certiname":"Data Analysis with Python, freeCodeCamp",
+      "date":"May 2022",
+      "description":"Statistics, Data Exploratory Analysis, Visualization with Python",
+      "link":"https://www.freecodecamp.org/certification/quynhnguyen0603/data-analysis-with-python-v7",
+      "image":"https://drive.google.com/uc?export=view&id=1YxWSa6s8wu__4SLHCM7vfKpX4HwUOn7n"
+    },
+    {
+      "certiname":"Microsoft Certified: Azure Data Fundamentals",
+      "date":"April 2022",
+      "description":"Foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.",
+      "link":"https://www.credly.com/badges/c6f51950-26ef-4c48-aa2b-71a052dc86cc/public_url",
+      "image":"https://drive.google.com/uc?export=view&id=1QvDnZxViY__KDGqtcq1Fqhy6mmqknkpQ"
+    }
+ ],
+ "phone": "0431 760 288",
+ "email": "quynhnguyen.spjain@gmail.com",
+ "linkedin": "linkedin.com/in/quynhnguyen0603",
+ "linkedin_link": "https://www.linkedin.com/in/quynhnguyen0603/",
+ "cv_path":"https://drive.google.com/uc?export=download&id=1IM9jbFmKXRq3_3iHFhNazncCEgxtAdrb",
+ "skills":{
+    "computer_languages":{
+      "label": ["Python", "SQL", "R", "JavaScript", "HTML", "CSS"],
+      "point":[10, 10, 7, 4, 7, 7]
+    },
+    "software_tools":{
+      "label":[["PowerBI"],["Jupyter","Notebook"],["Tensorflow"],["Sklearn"],["Microsoft","Excel"],["Apache", "Hadoop"], ["Apache", "Spark"], ["AWS/", "Microsoft Azure"], ["Git"], ["React.Js"], ["Node.Js"]],
+      "point":[9, 10, 9, 9, 10, 8, 6, 7, 8, 8, 6]
+    },
+    "softskills":{
+      "label":["Communication", ["Problem", "Solving"], ["Critical", "Thinking"], ["Time", "Management"], "Teamwork", "Analytics"],
+      "point":[8, 9, 9, 8, 9, 8]
+    },
+    "knowledge":{
+      "label":[["Data","Scraping"], ["Data", "Wrangling"], ["Database", "Management"], ["Data", "Exploratory","Analysis"], ["Data", "Visualisation"], ["Machine", "Learning"], ["Big", "Data"], ["Cloud", "Computing"], ["Web","Development"]],
+      "point":[6, 9, 5, 9, 8, 9, 8, 7, 6]
+    }
+ }
+}
+ 
