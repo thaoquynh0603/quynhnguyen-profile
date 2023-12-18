@@ -1,7 +1,7 @@
 {
   "name": "my-profile",
   "version": "0.1.0",
-  "homepage": "https://github.com/thaoquynh0603/myprofile",
+  "homepage": "https://thaoquynh0603.github.io/quynhnguyen-profile",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
