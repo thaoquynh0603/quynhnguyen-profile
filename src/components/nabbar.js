@@ -4,7 +4,7 @@ import { FaGithub , FaLinkedin, FaAlignJustify } from "react-icons/fa";
 
 function Nabbar() {
     return (
-        <div class="grid grid_nav">
+        <div class="grid grid_nav" id="nav">
                 <div class="whole grid_row">
                         <div class="navigation">
                             <div class="navigation_container">

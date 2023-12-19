@@ -20,7 +20,7 @@ function Experience() {
 
     return (
         <div class="grid" id='experience'>
-            <div class="whole grid_row">               
+            <div class="whole">               
                 <div class="body">
                     <div class='experience'>
                         <h1 class='experience title'> Experience </h1>

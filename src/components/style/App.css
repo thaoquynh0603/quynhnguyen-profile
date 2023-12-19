@@ -1,16 +1,18 @@
-@media screen and (max-width: 3000px) {
-  :root{
+:root{
     --white-color: #fff;
     --black-color: rgb(39, 39, 39);
     --text-color: rgb(22, 22, 22);
     --theme-color: #fdb600;
     --page-color: #F5F6F8;
+    
   }
 
   html {
     font-size: 14px;
     line-height: 1.6rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: 0;
   }
 
   body{
@@ -178,7 +180,7 @@
     color: var(--theme-color);
     font-size: 30px
   }
-}
+
 
 
 @media screen and (max-width: 900px) {
@@ -198,6 +200,8 @@
 
   .navigation_container{
     display: none;
+    
+    /* background-color: red; */
   }
 
   .grid_nav{
@@ -208,6 +212,7 @@
 
   .navigation_responsive #category_item_about{
     display: none;
+    background-color: red;
   }
 
   .navigation_responsive{
@@ -235,9 +240,9 @@
   }
 
   .navigation_responsive .intro{
-    width: 60%;
+    width: 80%;
     margin-left: 20px;
-    
+    font-size: 1.5rem;
   }
 
   .navigation_responsive .intro a{
@@ -309,6 +314,11 @@
     margin-top: 30px;
     width: 100%;
   }
+
+  
+  #education .education_more{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -320,7 +330,12 @@
   .navigation_responsive .intro{
     width: 80%;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 1em;
+    margin-top: 5px;
+  }
+
+  .navigation_responsive:hover{
+    height: 120px;
   }
 
   .navigation_responsive .intro a{
@@ -331,7 +346,10 @@
 
   .navigation_responsive .category_item{
     width: 30%;
-    margin: 5px 0px;
+    padding: 0px;
+    padding-left: 3px;
+    font-size: 0.9em;
+    margin-right: 2%;
   }
 
   #education .education_more div{
@@ -340,7 +358,7 @@
 
   #skills .skill-section{
     width: 100%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     text-align: center;
   }
 
