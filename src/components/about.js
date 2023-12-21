@@ -18,6 +18,9 @@ function About() {
                     <div> </div> 
                     <div class="body">
                         <div class="welcome">    
+                            <div class='profile-img'>
+                                    <img src={Data.img_source} id='profile-img' alt='profile-image'></img>
+                            </div>
                             <div class="welcome_greeting"> {Data.greeting} </div>           
                             <div class="welcome_intro">               
                                 <div class="welcome_statement">

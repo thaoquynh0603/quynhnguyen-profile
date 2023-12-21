@@ -181,9 +181,20 @@
     font-size: 30px
   }
 
+  #welcome .profile-img{
+    display: none;
+  }
 
 
 @media screen and (max-width: 900px) {
+
+  #welcome .profile-img{
+    display: block;
+    width: 30%;
+    height: 25vw;
+    margin-top: 0px;
+  }
+
   .navigation{
     width: 100% ;
     position: relative;
@@ -295,7 +306,7 @@
   }
 
   #welcome{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   #contact .grid_row{

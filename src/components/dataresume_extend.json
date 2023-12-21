@@ -5,7 +5,7 @@
  "greeting": "Nice to see you here!",
  "description": ["Programming, researching, and learning data science are my joy. As I engage in problem-solving, this joy transforms into a devoted commitment.",
                   "As a business enabler, my ultimate career goal is to accelerate business with data science innovations. I achieve this by fostering clear communication, strong collaborations, critical thinking, and continuous upskilling.",
-                  "In terms of my technical skills, I know a bit of everything, including data mining, data visualization, cloud computing, web development, big data, and more - in which machine learning has the most of my time and passion. I love being a generalist in tech, as there's always room to improve my skills and learn new things.",
+                  "In terms of my technical skills, I know a bit of everything, including database management, data mining, data visualization, cloud computing, web development, big data, and more - in which machine learning has the most of my time and passion. I love being a generalist in tech, as there's always room to improve my skills and learn new things.",
 		              "Last but not least, I’m a foodie, a Picasso wannabe, and a gleeful introvert."],
  "highlight": "I am currently seeking an internship or a part-time position in the data science and machine learning realm. Feel free to reach out if there's a fitting opportunity. Thank you for your consideration!",
  "education":[{
@@ -29,7 +29,18 @@
   "knowledge": "Marketing Principles, Microeconomics, Macroeconomics, Event Management, Statistics for Business and Economics",
   "school_link": "https://www.tdtu.edu.vn/en",
   "program_link": "https://fba.tdtu.edu.vn/en/standard-program/marketing"
-}  
+},
+ {
+  "school":"Quoc Hoc High School for the Gifted",
+  "begin_year":"2017",
+  "end_year":"2020",
+  "program": "Computer Science Specialization",
+  "GPA": "9.0/10",
+  "achievement": "",
+  "knowledge": "Competitive Programming, Data Structure and Algorithm",
+  "school_link": "https://www.linkedin.com/school/quochoc-hue/about/",
+  "program_link": ""
+}   
 ],
  "experience":[
  {"experience":"Data Science Intern",
@@ -223,6 +234,13 @@
       "image":"https://drive.google.com/uc?export=view&id=13qRUduIyTbjcfi0YtgtMgFMGRW5eajYZ"
     },
     {
+      "certiname":"Fundamentals of Deep Learning, NVIDIA DLI",
+      "date":"June 2022",
+      "description":"Deep learning models in computer vision and natural language processing.",
+      "link":"https://courses.nvidia.com/certificates/3816c8d60575474085e0c957084a93e8/",
+      "image":"https://drive.google.com/uc?export=view&id=1md9DKOcE-pTrFDuCRKr6MCEKkZCehgks"
+    },
+    {
       "certiname":"Data Analysis with Python, freeCodeCamp",
       "date":"May 2022",
       "description":"Statistics, Data Exploratory Analysis, Visualization with Python",
@@ -248,8 +266,8 @@
       "point":[10, 10, 7, 4, 7, 7]
     },
     "software_tools":{
-      "label":[["PowerBI"],["Jupyter","Notebook"],["Tensorflow"],["Sklearn"],["Microsoft","Excel"],["Apache", "Hadoop"], ["AWS/", "Microsoft Azure"], ["Git"], ["React.Js"]],
-      "point":[9, 9, 8, 8, 7, 6, 7, 7, 8]
+      "label":[["PowerBI"],["Jupyter","Notebook"],["Tensorflow"],["Sklearn"],["Microsoft","Excel"],["Apache", "Hadoop"], ["Apache", "Spark"], ["AWS/", "Microsoft Azure"], ["Git"], ["React.Js"], ["Node.Js"]],
+      "point":[9, 10, 9, 9, 10, 8, 6, 7, 8, 8, 6]
     },
     "softskills":{
       "label":["Communication", ["Problem", "Solving"], ["Critical", "Thinking"], ["Time", "Management"], "Teamwork", "Analytics"],
@@ -257,7 +275,7 @@
     },
     "knowledge":{
       "label":[["Data","Scraping"], ["Data", "Wrangling"], ["Database", "Management"], ["Data", "Exploratory","Analysis"], ["Data", "Visualisation"], ["Machine", "Learning"], ["Big", "Data"], ["Cloud", "Computing"], ["Web","Development"]],
-      "point":[6, 9, 5, 9, 8, 8, 8, 7, 8]
+      "point":[6, 9, 5, 9, 8, 9, 8, 7, 6]
     }
  }
 }
