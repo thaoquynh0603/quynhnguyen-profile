@@ -410,3 +410,9 @@
   }
 }
 
+
+.project_img {
+  width: 100px; /* Set width and height as needed */
+  height: 100px;
+  background-size: cover;
+}

@@ -16,10 +16,10 @@ function App() {
     <div>
       <Nabbar />
       <About />
-      <Education />
-      <Skills />
       <Experience />
+      <Skills />
       <Project />
+      <Education />
       <Qualification />
       <Contact />
       

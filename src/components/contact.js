@@ -47,11 +47,11 @@ function Contact() {
                                     </div>
                                     <div class='contact-information-item' id='info-email'> 
                                         <AiOutlineMail class='contact-icon' style={{color:'#FDB600', 'font-size':'35px','padding-right':'10px'}} /> 
-                                        <div class='more-contact-detail'>  <a href={Data.email} target='_blank'> {Data.email} </a> </div>
+                                        <div class='more-contact-detail'>  <a href={Data.email} target='_blank' rel="noreferrer"> {Data.email} </a> </div>
                                     </div>
                                     <div class='contact-information-item' id='info-linkedin'>
                                         <AiOutlineLinkedin class='contact-icon' style={{color:'#FDB600', 'font-size':'35px','padding-right':'10px'}} />
-                                        <div class='more-contact-detail'>  <a href={Data.linkedin_link} target='_blank'> {Data.linkedin} </a> </div>
+                                        <div class='more-contact-detail'>  <a href={Data.linkedin_link} target='_blank' rel="noreferrer"> {Data.linkedin} </a> </div>
                                     </div>
                                 </div>
                                 <a id='cv_download' href={Data.cv_path}> <AiOutlineDownload style={{'font-size':'25px','padding-right':'5px'}} /> Download my CV in PDF </a>

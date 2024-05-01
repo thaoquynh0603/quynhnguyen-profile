@@ -3,7 +3,7 @@ import './style/App.css';
 import './style/about.css';
 import './style/project.css';
 import { IoCode, IoExpandOutline, IoContract } from "react-icons/io5";
-import { IoIosPeople, IoIosBookmark, IoMdEye, IoIosRocket, IoIosAlert} from "react-icons/io";
+import { IoIosPeople, IoIosBookmark, IoMdEye } from "react-icons/io";
 import {  AiOutlineStar, AiFillStar,  } from 'react-icons/ai';
 import Data from './dataresume.json'
 
@@ -72,10 +72,10 @@ function Project() {
                                             </div>
                                             <div class='projectLinkWrap'>
                                             {item.viewLink && (
-                                                <a href={item.viewLink} target='_blank' class='projectLink'>  <IoMdEye /> View  </a>
+                                                <a href={item.viewLink} target='_blank'  rel="noreferrer" class='projectLink'>  <IoMdEye /> View  </a>
                                             )}
                                             {item.sourceCode && (
-                                                <a href={item.sourceCode} target='_blank' class='projectLink'>  <IoCode /> Source Code  </a>
+                                                <a href={item.sourceCode} target='_blank'  rel="noreferrer" class='projectLink'>  <IoCode /> Source Code  </a>
                                             )}
                                             </div>
                                         </div>

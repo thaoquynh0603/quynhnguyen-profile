@@ -1,17 +1,19 @@
 import './style/App.css';
 import Data from './dataresume.json'
-import { FaGithub , FaLinkedin, FaAlignJustify } from "react-icons/fa";
+import { FaGithub , FaLinkedin, FaAlignJustify } from "react-icons/fa"; 
 
 function Nabbar() {
+    
+    const imageProfile = require("./images/profile-img.jpg");
+    
     return (
         <div class="grid grid_nav" id="nav">
                 <div class="whole grid_row">
                         <div class="navigation">
                             <div class="navigation_container">
                                 <div class='profile-img'>
-                                    <img src={Data.img_source} id='profile-img' alt='profile-image'></img>
+                                    <img src={imageProfile} id='profile-img' alt='profile'></img>
                                 </div>
-
                                 <div class="intro">
                                     <div class="intro-name">
                                         {Data.name}
@@ -24,7 +26,7 @@ function Nabbar() {
         
                                 <nav class="category">
                                     <ul class="category_list">
-                                        <li class="category_item"><a href='#' class="category_item_a"> About </a> </li>
+                                        <li class="category_item"><a href='/' class="category_item_a"> About </a> </li>
                                         <li class="category_item"><a href='#education' class="category_item_a"> Education  </a> </li>
                                         <li class="category_item"><a href='#skills' class="category_item_a"> Skills  </a> </li>
                                         <li class="category_item"><a href='#experience' class="category_item_a"> Experience </a></li>
@@ -43,7 +45,7 @@ function Nabbar() {
                             <div class="navigation_responsive">                
                                 <div class="intro">
                                     <div class="intro-name" >
-                                        <a href="#">{Data.name}</a>
+                                        <a href="/">{Data.name}</a>
                                     </div>
                                 </div>
 
@@ -51,7 +53,7 @@ function Nabbar() {
         
                                 <nav class="category_responsive">
                                     <ul class="category_list">
-                                        <li class="category_item" id="category_item_about"><a href='#' class="category_item_a"> About </a> </li>
+                                        <li class="category_item" id="category_item_about"><a href='/' class="category_item_a"> About </a> </li>
                                         <li class="category_item"><a href='#education' class="category_item_a"> Education  </a> </li>
                                         <li class="category_item"><a href='#skills' class="category_item_a"> Skills  </a> </li>
                                         <li class="category_item"><a href='#experience' class="category_item_a"> Experience </a></li>

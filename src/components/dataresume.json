@@ -1,42 +1,44 @@
 {"name": "QUYNH NGUYEN ",
  "title": "A bit of Data Science",
  "github":"https://github.com/thaoquynh0603",
- "img_source":"https://drive.google.com/uc?export=view&id=1vlR-dLfbdkVgX-p_zxDPxIsV7G8KJ1yv",
- "greeting": "Nice to see you here!",
+ "img_source":"/src/components/images/profile-img.jpg",
+ "greeting": "Welcome to my Hub, ",
  "description": ["Programming, researching, and learning data science are my joy. As I engage in problem-solving, this joy transforms into a devoted commitment.",
-                  "As a business enabler, my ultimate career goal is to accelerate business with data science innovations. I achieve this by fostering clear communication, strong collaborations, critical thinking, and continuous upskilling.",
-                  "In terms of my technical skills, I know a bit of everything, including data mining, data visualization, cloud computing, web development, big data, and more - in which machine learning has the most of my time and passion. I love being a generalist in tech, as there's always room to improve my skills and learn new things.",
+                  "As a business enabler, my ultimate career goal is to accelerate business with data science innovations. I achieve this by fostering strong collaborations, critical thinking, and continuous upskilling.",
+                  "In terms of my technical skills, I have a good grasp of data mining, data analytics, cloud computing, web development, machine learning, and more - in which machine learning has the most of my time and passion. I love being a generalist in tech, as there's always room to improve my skills and learn new things.",
 		              "Last but not least, I’m a foodie, a Picasso wannabe, and a gleeful introvert."],
- "highlight": "I am currently seeking an internship or a part-time position in the data science and machine learning realm. Feel free to reach out if there's a fitting opportunity. Thank you for your consideration!",
+ "highlight": "If your awesome data team needs some more hands, I got you. I'm looking forward an opportunities to bring data science solutions to level up the business performance. So, if you think we could be a good match, please reach out to me!",
  "education":[{
     "school":"S P Jain School of Global Management",
     "begin_year":"2021",
     "end_year":"2024",
     "program": "Bachelor of Data Science",
-    "GPA": "3.9/4.3 (Dean's Lister)",
+    "GPA": "3.7/4.3",
     "achievement": "Dean's Lister",
-    "knowledge": "Computer Programming, Data Structure and Algorithm, Statistics and Probability, Linear Algebra, Calculus, Data Warehouse and Integration, Machine Learning, Simulation Modelling, Object Relational and NoSQL Databases, Data Mining",
     "school_link": "https://www.spjain.edu.au/",
     "program_link": "https://www.spjain.edu.au/programs/undergraduate/bachelor-of-data-science"
- },
- {
-  "school":"Ton Duc Thang University",
-  "begin_year":"2020",
-  "end_year":"2021",
-  "program": "Bachelor of Marketing",
-  "GPA": "9.1/10",
-  "achievement": "",
-  "knowledge": "Marketing Principles, Microeconomics, Macroeconomics, Event Management, Statistics for Business and Economics",
-  "school_link": "https://www.tdtu.edu.vn/en",
-  "program_link": "https://fba.tdtu.edu.vn/en/standard-program/marketing"
-}  
+ }
 ],
  "experience":[
+  {"experience":"Analytics Intern",
+  "company":"Eucalyptus Inc",
+  "company_location":"Sydney, NSW, Australia",
+  "work_begin":"February 2024",
+  "work_end":"Current",
+  "task":[
+  "Design and implement data models, algorithms, and statistical analyses tailored to meet and exceed business objectives.", 
+  "Engage in dynamic collaboration with diverse cross-functional teams to deeply understand business needs, translating them into actionable analytical solutions that drive success.",
+  "Develop and maintain captivating dashboards, reports, and visualizations that vividly illustrate insights, ensuring stakeholders are equipped with clear, actionable information.",
+  "Harness advanced data mining, cleansing, and manipulation techniques to meticulously uphold data integrity and accuracy.",
+  "Conduct ad-hoc analyses and support special projects as required by the organization."
+  ],
+  "skill":["SQL", "DBT", "Microsoft Excel", "Metabase", "Tableau", "Data Modelling", "Data Visualisation"]
+  },
  {"experience":"Data Science Intern",
     "company":"St Trinity Property Group",
     "company_location":"North Strathfield, NSW, Australia",
     "work_begin":"September 2023",
-    "work_end":"Current",
+    "work_end":"January 2024",
     "task":["Extract clients and deals data from the CRM system using SQL; Preprocess raw data to ensure consistency and accuracy with Python.","Perform comprehensive analysis to discover significant insights related to customer expectations and acceptance of offers, identifying opportunities for improvement.","Create a mathematical model employing to segment customers to optimize the sales process, enhancing efficiency, and potentially optimizing sales process by 20%.","Build a text mining model to extract customer interests from associates’ call and appointment notes.", "Work with cross-functional teams to explain model features and communicate insights. "],
     "skill":["SQL", "Python", "Data Analysis", "Text Mining", "Communication","Apache Hadoop","Git","CRM"]
     },
@@ -73,6 +75,21 @@
     "skill":["Digital Marketing", "Content Marketing", "Social Media", "Graphic Design"]
   }],
  "project":[
+ {
+    "name": "SQL Query Assistant with AI",
+    "date": 2024,
+    "projectype": "Personal Project",
+    "description":[
+     "Developed a user-friendly platform enabling users to generate customized SQL queries tailored to their database system utilizing GCP Codey, Gemini Pro, and ChatGPT.",
+"Implemented robust data validation features allowing users to conduct unit checks on output data, including missing value, null value, and value range checks.",
+"Enhanced query accuracy by dynamically providing relevant query examples using a RAG system, incorporating vector search capabilities.",
+"Utilized Streamlit to create an intuitive and interactive user interface for seamless user experience.",
+"Conducted extensive research on foundational models, testing their efficacy on graph and vector databases for the RAG system, while exploring UI frameworks such as Streamlit and React.js for optimal performance.",
+"Successfully presented a compelling demo to Euc's data team, effectively introducing the project and garnering approval for its integration into Euc's data analysis workflow."
+    ],
+    "skill_tag": ["Large Language Model", "Retrieval Augmented Generation", "Google Cloud APIs", "Streamlit", "Python"],
+    "difficult":3    	
+    },
  {
       "name": "CRM Usability Categorization",
       "date": 2023,
@@ -239,7 +256,7 @@
  ],
  "phone": "0431 760 288",
  "email": "quynhnguyen.spjain@gmail.com",
- "linkedin": "linkedin.com/in/quynhnguyen0603",
+ "linkedin": "/linkedin.com/in/quynhnguyen0603",
  "linkedin_link": "https://www.linkedin.com/in/quynhnguyen0603/",
  "cv_path":"https://drive.google.com/uc?export=download&id=1IM9jbFmKXRq3_3iHFhNazncCEgxtAdrb",
  "skills":{
@@ -248,16 +265,16 @@
       "point":[10, 10, 7, 4, 7, 7]
     },
     "software_tools":{
-      "label":[["PowerBI"],["Jupyter","Notebook"],["Tensorflow"],["Sklearn"],["Microsoft","Excel"],["Apache", "Hadoop"], ["AWS/", "Microsoft Azure"], ["Git"], ["React.Js"]],
-      "point":[9, 9, 8, 8, 7, 6, 7, 7, 8]
+      "label":[["Metabase"], ["Tableau"], ["PowerBI"],["Jupyter","Notebook"],["Tensorflow"],["Sklearn"],["DBT"], ["Apache", "Hadoop"], ["AWS/", "Microsoft Azure"], ["Git"], ["React.Js"]],
+      "point":[9, 8, 9, 9, 8, 8, 7, 6, 7, 7, 8]
     },
     "softskills":{
       "label":["Communication", ["Problem", "Solving"], ["Critical", "Thinking"], ["Time", "Management"], "Teamwork", "Analytics"],
       "point":[8, 9, 9, 8, 9, 8]
     },
     "knowledge":{
-      "label":[["Data","Scraping"], ["Data", "Wrangling"], ["Database", "Management"], ["Data", "Exploratory","Analysis"], ["Data", "Visualisation"], ["Machine", "Learning"], ["Big", "Data"], ["Cloud", "Computing"], ["Web","Development"]],
-      "point":[6, 9, 5, 9, 8, 8, 8, 7, 8]
+      "label":[["Data","Modelling"], ["Data","Scraping"], ["Data", "Wrangling"], ["Database", "Management"], ["Data", "Exploratory","Analysis"], ["Data", "Visualisation"], ["Machine", "Learning"], ["Big", "Data"], ["Cloud", "Computing"], ["Web","Development"]],
+      "point":[8, 6, 9, 5, 9, 8, 8, 8, 7, 8]
     }
  }
 }

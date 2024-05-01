@@ -19,19 +19,19 @@ function education() {
                                         <span class='education_section_time'> From <span  class='bold'> {item.begin_year} </span> to <span> {item.end_year} </span></span>
                                         <span class='education_section_program separator'> {item.program} </span>
                                         <span class='education_section_gpa separator'> GPA: <span class='bold'>{item.GPA}</span> </span>
-                                        <div class='education_section_summary'> Coursework: {item.knowledge}</div>
+                                        <div class='education_section_summary'> {item.knowledge}</div>
                                     </div>
                                     <div class='education_more grid_row'>
                                     {item.school_link && (
                                         <div>
-                                        <a href={item.school_link} target='_blank' class='education_more_but button'>
+                                        <a href={item.school_link} target='_blank' rel="noreferrer" class='education_more_but button'>
                                             More about this school <IoOpenOutline style={{'margin-bottom':'3px'}}/>
                                         </a>
                                         </div>
                                     )}
                                     {item.program_link && (
                                         <div>
-                                        <a href={item.program_link} target='_blank' class='education_more_but button'>
+                                        <a href={item.program_link} target='_blank' rel="noreferrer" class='education_more_but button'>
                                             More about this program <IoOpenOutline style={{'margin-bottom':'3px'}}/>
                                         </a>
                                         </div>

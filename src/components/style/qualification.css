@@ -1,32 +1,19 @@
 .qualification-grid{
     margin-top: 20px;
-    /* margin-left: -5%;
-    margin-right: -5%; */
+    display: flex
 } 
 
 .qualification-item{
     margin-bottom: 20px;
     width: 32%;
-    /* margin-right: 22px; */
-    /* margin-left: 5%;
-    margin-right: 5%; */
 }
 
-.card{
-    width: 100%;
-    /* height: -20vw */
-}
-.qualification-item:nth-last-child(2)  {
-    margin-right: 2%;
-}
-
-.qualification-item:last-child  {
-    margin-right: auto;
-}
-
-.card{
-    position: relative;
-    
+.qua-descrip{
+    border-top: 2px solid var(--theme-color);
+    border-left: 2px solid var(--theme-color);
+    padding: 20px;
+    min-height: 300px;
+    position: relative
 }
 
 .button_qua{
@@ -36,30 +23,6 @@
     min-width: 100px
 }
 
-.certificate-box{
-    position: relative;
-    width: 100%;
-    height: 50px;
-    overflow: hidden;
-    transition: height 0.3s ease;
-}
-
-.qualification-item:hover .certificate-box{
-    height: 150px;
-}
-
-.qua-descrip{
-    border-top: 2px solid var(--theme-color);
-    padding: 20px;
-    min-height: 400px;
-}
-.qua_img{
-    width: 100%;
-}
-
-
-
-
   
 .card{
 background-color: var(--page-color);
@@ -68,14 +31,13 @@ border: solid 2px var(--theme-color);
 
 .card-text{
 margin-bottom: 40px;
-/* height: 300px; */
-/* overflow: hidden; */
-}
+ }
+
 .card-link{
 text-decoration: none;
 right: 10px;
 bottom: 10px;
-position: absolute;
+position: relative;
 padding: 2px 6px;
 margin-top: 30px;
-}
+} 
