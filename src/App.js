@@ -10,7 +10,6 @@ import Project from './components/project';
 import Qualification from './components/qualification';
 import Contact from './components/contact';
 
-
 function App() {
   return (
     <div>
