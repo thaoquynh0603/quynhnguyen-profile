@@ -33,7 +33,7 @@
   "Developed compelling visualisations in Metabase and Tableau, applying statistical methods like A/B testing and regression analysis to inform strategic business decisions.",
   "Built AI solutions and proofs of concept using Python, Stream lit, Vertex AI, GCP Cloud Run, and Docker to address business challenges.",
   "Designed and implemented the first end-to-end ML pipeline on GCP Vertex AI, managing data ingestion to production deployment by researching and testing tools to meet business needs.",
-  "Created AI systems to enhance data accessibility, personalise patient journeys, support clinical staff, and build models for churn prediction and sentiment analysis.",
+  "Created AI systems to enhance data accessibility, personalise patient journeys, support clinical staff, and build models for churn prediction and sentiment analysis."
   ],
   "skill":["SQL", "Python", "DBT", "BigQuery", "VertexAI", "Git", "Metabase", "Tableau", "Data Modelling", "Data Visualisation", "Classification", "Sentiment Analysis", "Statistical Analysis"]
   },
@@ -44,7 +44,7 @@
     "work_end":"April 2024",
     "task":["Closely partnered with founders to understand the business, define and propose core business KPIs, focusing on user engagement and learning outcomes.",
 	    "Developed and optimised SQL queries and BigQuery stored procedures, significantly improving data processing efficiency and supporting the analysis of large-scale user event data.",
-	    "Designed and maintained interactive dashboards in Metabase, delivering insightful visualizations that track user journeys and conversion metrics, enabling data-driven decision-making."]
+	    "Designed and maintained interactive dashboards in Metabase, delivering insightful visualizations that track user journeys and conversion metrics, enabling data-driven decision-making."],
     "skill":["SQL", "BigQuery", "Metabase", "Data-Driven Decision Making"]
     }, 
  {"experience":"AI Builder Fellow",
@@ -55,7 +55,7 @@
     "task":["Collaborated with professionals in co-working sessions and hackathons to explore and develop innovative AI solutions.",
 	    "Created and presented AI proof-of-concepts (POC), showcasing AI’s potential to address critical challenges in Healthcare and Food Waste",
 	    "Engaged in insightful discussions, asking targeted questions to understand AI concepts, and provided constructive feedback to improve solutions.",
-    	    "Developed technical proficiency in Python for AI development, applying core programming skills to build effective AI systems."]
+    	    "Developed technical proficiency in Python for AI development, applying core programming skills to build effective AI systems."],
     "skill":["Python", "Web Development", "AI System Development", "Communication"]
     }, 
  {"experience":"Data Science Intern",
