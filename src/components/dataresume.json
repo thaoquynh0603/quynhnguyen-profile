@@ -20,20 +20,44 @@
  }
 ],
  "experience":[
-  {"experience":"Analytics Intern",
+  {"experience":"Jr Data Analyst / AI Specialist",
   "company":"Eucalyptus Inc",
   "company_location":"Sydney, NSW, Australia",
   "work_begin":"February 2024",
   "work_end":"Current",
   "task":[
-  "Design and implement data models, algorithms, and statistical analyses tailored to meet and exceed business objectives.", 
-  "Engage in dynamic collaboration with diverse cross-functional teams to deeply understand business needs, translating them into actionable analytical solutions that drive success.",
-  "Develop and maintain captivating dashboards, reports, and visualizations that vividly illustrate insights, ensuring stakeholders are equipped with clear, actionable information.",
-  "Harness advanced data mining, cleansing, and manipulation techniques to meticulously uphold data integrity and accuracy.",
-  "Conduct ad-hoc analyses and support special projects as required by the organization."
+  "Deliver analytics and AI solutions that empower stakeholders across business functions to work more efficiently and make informed decisions. ", 
+  "Collaborate closely to identify needs, break down problems, propose practical solutions, and ensure reliable delivery. ",
+  "Stay up-to-date with the latest data and AI technologies to continuously improve problem-solving.",
+  "Managed and ingested data using Google BigQuery and Amazon Redshift, transforming it with SQL and dbt, while ensuring data accuracy and reliable insights through Git version control.",
+  "Developed compelling visualisations in Metabase and Tableau, applying statistical methods like A/B testing and regression analysis to inform strategic business decisions.",
+  "Built AI solutions and proofs of concept using Python, Stream lit, Vertex AI, GCP Cloud Run, and Docker to address business challenges.",
+  "Designed and implemented the first end-to-end ML pipeline on GCP Vertex AI, managing data ingestion to production deployment by researching and testing tools to meet business needs.",
+  "Created AI systems to enhance data accessibility, personalise patient journeys, support clinical staff, and build models for churn prediction and sentiment analysis.",
   ],
-  "skill":["SQL", "DBT", "Microsoft Excel", "Metabase", "Tableau", "Data Modelling", "Data Visualisation"]
+  "skill":["SQL", "Python", "DBT", "BigQuery", "VertexAI", "Git", "Metabase", "Tableau", "Data Modelling", "Data Visualisation", "Classification", "Sentiment Analysis", "Statistical Analysis"]
   },
+ {"experience":"Data Analyst",
+    "company":"kippy.ai",
+    "company_location":"Sydney, NSW, Australia",
+    "work_begin":"January 2024",
+    "work_end":"April 2024",
+    "task":["Closely partnered with founders to understand the business, define and propose core business KPIs, focusing on user engagement and learning outcomes.",
+	    "Developed and optimised SQL queries and BigQuery stored procedures, significantly improving data processing efficiency and supporting the analysis of large-scale user event data.",
+	    "Designed and maintained interactive dashboards in Metabase, delivering insightful visualizations that track user journeys and conversion metrics, enabling data-driven decision-making."]
+    "skill":["SQL", "BigQuery", "Metabase", "Data-Driven Decision Making"]
+    }, 
+ {"experience":"AI Builder Fellow",
+    "company":"Build Club",
+    "company_location":"Sydney, NSW, Australia",
+    "work_begin":"August 2023",
+    "work_end":"May 2024",
+    "task":["Collaborated with professionals in co-working sessions and hackathons to explore and develop innovative AI solutions.",
+	    "Created and presented AI proof-of-concepts (POC), showcasing AI’s potential to address critical challenges in Healthcare and Food Waste",
+	    "Engaged in insightful discussions, asking targeted questions to understand AI concepts, and provided constructive feedback to improve solutions.",
+    	    "Developed technical proficiency in Python for AI development, applying core programming skills to build effective AI systems."]
+    "skill":["Python", "Web Development", "AI System Development", "Communication"]
+    }, 
  {"experience":"Data Science Intern",
     "company":"St Trinity Property Group",
     "company_location":"North Strathfield, NSW, Australia",
@@ -76,6 +100,41 @@
   }],
  "project":[
  {
+    "name": "Clinical Consultation Analysis with AI Transcription",
+    "date": 2024,
+    "projectype": "Hackathon",
+    "description":[
+     "The app enhances clinical consultations by transcribing audio recordings into text and analyzing them with AI to extract key details about diet, lifestyle, and symptoms. It generates concise summaries for easy follow-ups, helps manage appointments with calendar integration, and allows users to securely share health summaries with doctors, family, or friends. This tool aims to improve healthcare engagement, streamline communication, and support better treatment outcomes."
+    ],
+    "skill_tag": ["Grok", "OpenAI Whisper", "API Integration", "Python", "Streamlit"],
+    "difficult":3,
+    "viewLink":"https://www.loom.com/share/503b98cb5fbc4561b80726cfcb32c438?sid=18c9d71c-e640-4178-8ff9-83cb10a55aba"
+    },
+ {
+    "name": "LLM Evaluation Custom Dataset",
+    "date": 2024,
+    "projectype": "Personal Project",
+    "description":[
+     "The LLM Evaluation Custom Dataset app provides a simple interface for evaluating language models using your datasets. With support for exact and relative match testing, it enables users to upload datasets, configure model details, enter prompts, and evaluate performance. The app handles datasets in CSV or Excel formats, requiring two columns: test_input and label."
+    ],
+    "skill_tag": ["Large Language Model", "Nextjs", "Django", "Docker", "Bash", "JavaScript", "Python"],
+    "difficult":3,
+    "viewLink":"https://youtu.be/sronXZV0Emw",
+    "sourceCode":"https://github.com/thaoquynh0603/llm-eval-custom-dataset"
+    },
+ {
+    "name": "Pickle Recipe: Using AI to reduce Food Waste",
+    "date": 2024,
+    "projectype": "Hackathon",
+    "description":[
+     "The Pickle Recipe app is an AI-powered tool that generates recipes and corresponding recipe photos based on user inputs like ingredients, leftovers, cooking time, and difficulty level.  This app utilizes an AI agent which users can interact with via email to request recipes and receive the generated recipe and photo."
+    ],
+    "skill_tag": ["AI Agent", "ReactJs", "Relevance AI"],
+    "difficult":2,
+    "viewLink": "https://youtu.be/xWvfE1z30Gs",
+    "sourceCode": "https://github.com/thaoquynh0603/pickle-recipe"
+    },
+ {
     "name": "SQL Query Assistant with AI",
     "date": 2024,
     "projectype": "Personal Project",
@@ -88,7 +147,9 @@
 "Successfully presented a compelling demo to Euc's data team, effectively introducing the project and garnering approval for its integration into Euc's data analysis workflow."
     ],
     "skill_tag": ["Large Language Model", "Retrieval Augmented Generation", "Google Cloud APIs", "Streamlit", "Python"],
-    "difficult":3    	
+    "difficult":3,
+    "viewLink": "https://youtu.be/kBhp6QGMLbQ",
+    "sourceCode": "https://github.com/thaoquynh0603/sql-assistant-streamlit"
     },
  {
       "name": "CRM Usability Categorization",
@@ -103,7 +164,7 @@
       ],
       "skill_tag": ["SQL", "Python", "Text Mining", "Object-oriented Programming", "Apache Hadoop"],
       "difficult":3,    	
-	"sourceCode":"https://github.com/thaoquynh0603/sttrinitycrm"
+      "sourceCode":"https://github.com/thaoquynh0603/sttrinitycrm"
     },
  {
       "name": "Identifying Buy/Sell Signals using the Moving Average Model",
@@ -204,6 +265,13 @@
     }
     ],
  "qualification":[
+    {
+      "certiname":"Machine Learning Engineer Specialisation",
+      "date":"December 2024",
+      "description":"Fundamentals of MLOps, key technologies like Python, Docker, MLflow, deployment strategies, and monitoring.",
+      "link":"https://www.datacamp.com/completed/statement-of-accomplishment/track/25a8d423952dab325feb935665f2a24728d73e5a",
+      "image":"https://drive.google.com/uc?export=view&id=1YsIp2FxZPrKoO_f1CQWUuevgbwisYYSx"
+    },
     {
       "certiname":"Big Data Specialisation, University of San Diago",
       "date":"Sep 2023",
