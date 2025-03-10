@@ -4,9 +4,9 @@
  "img_source":"/src/components/images/profile-img.jpg",
  "greeting": "Welcome to my Hub, ",
  "description": ["Programming, researching, and learning data science are my joy. As I engage in problem-solving, this joy transforms into a devoted commitment.",
-                  "As a business enabler, my ultimate career goal is to accelerate business with data science innovations. I achieve this by fostering strong collaborations, critical thinking, and continuous upskilling.",
-                  "In terms of my technical skills, I have a good grasp of data mining, data analytics, cloud computing, web development, machine learning, and more - in which machine learning has the most of my time and passion. I love being a generalist in tech, as there's always room to improve my skills and learn new things.",
-		              "Last but not least, I’m a foodie, a Picasso wannabe, and a gleeful introvert."],
+                  "My career goal is to enable businesses by leveraging data-driven technologies. I achieve this by fostering collaboration, applying critical thinking, and continuously expanding my technical expertise.",
+                  "I have solid experience in data engineering, including data pipeline development, ETL processes, cloud computing, and database management. Additionally, I have expertise in data analytics, machine learning, and web development—skills that enable me to bridge multiple domains effectively. Alongside building scalable data solutions, I enjoy being a tech generalist who is always eager to learn and grow.",
+		  "Last but not least, I’m a foodie, a Picasso wannabe, and a gleeful introvert."],
  "highlight": "If your awesome data team needs some more hands, I got you. I'm looking forward an opportunities to bring data science solutions to level up the business performance. So, if you think we could be a good match, please reach out to me!",
  "education":[{
     "school":"S P Jain School of Global Management",
@@ -20,32 +20,58 @@
  }
 ],
  "experience":[
-  {"experience":"Jr Data Analyst / AI Specialist",
-  "company":"Eucalyptus Inc",
+  {"experience":"Data Analyst",
+  "company":"Eucalyptus",
   "company_location":"Sydney, NSW, Australia",
   "work_begin":"February 2024",
   "work_end":"Current",
   "task":[
-  "Deliver analytics and AI solutions that empower stakeholders across business functions to work more efficiently and make informed decisions. ", 
-  "Collaborate closely to identify needs, break down problems, propose practical solutions, and ensure reliable delivery. ",
-  "Stay up-to-date with the latest data and AI technologies to continuously improve problem-solving.",
-  "Managed and ingested data using Google BigQuery and Amazon Redshift, transforming it with SQL and dbt, while ensuring data accuracy and reliable insights through Git version control.",
-  "Developed compelling visualisations in Metabase and Tableau, applying statistical methods like A/B testing and regression analysis to inform strategic business decisions.",
-  "Built AI solutions and proofs of concept using Python, Stream lit, Vertex AI, GCP Cloud Run, and Docker to address business challenges.",
-  "Designed and implemented the first end-to-end ML pipeline on GCP Vertex AI, managing data ingestion to production deployment by researching and testing tools to meet business needs.",
-  "Created AI systems to enhance data accessibility, personalise patient journeys, support clinical staff, and build models for churn prediction and sentiment analysis."
+	"Designed and implemented scalable ETL pipelines to ingest data from PostgreSQL databases and Segment into BigQuery Data Warehouse.",
+	"Utilised Fivetran to reliably ingest data from Deputy API into BigQuery, ensuring seamless integration and data consistency.",
+	"Developed scheduled batch jobs for automated ingestion and processing of customer data from PostgreSQL and application event data from Segment.",
+	"Migrated over 200 DBT models from AWS Redshift to GCP BigQuery, validating migration accuracy (>99%) through Python-based reconciliation scripts.",
+	"Built and enhanced over 50 DBT models integrating multiple data sources, implementing rigorous QA processes with 100+ automated SQL tests to ensure pipeline reliability.",
+	"Designed efficient database schemas optimised for analytical queries, reporting, and business intelligence purposes.",
+	"Created more than 100 dashboards and analytical reports in Metabase and Tableau, supporting operational efficiency and strategic decision-making across the organisation.",
+	"Identified the need for semantic data solutions; developed a Data Generation Tool and Data Querying Bot leveraging Vertex AI to enhance data accessibility and automate querying processes."
   ],
-  "skill":["SQL", "Python", "DBT", "BigQuery", "VertexAI", "Git", "Metabase", "Tableau", "Data Modelling", "Data Visualisation", "Classification", "Sentiment Analysis", "Statistical Analysis"]
+  "skill":["SQL",
+	"Python",
+	"PostgreSQL",
+	"Segment",
+	"Fivetran",
+	"BigQuery",
+	"Redshift",
+	"DBT",
+	"Metabase",
+	"Tableau",
+	"Vertex AI",
+	"ETL Pipeline Development",
+	"Data Migration",
+	"Data Modelling",
+	"Data Visualisation",
+	"Automated Testing"]
   },
  {"experience":"Data Analyst",
     "company":"kippy.ai",
     "company_location":"Sydney, NSW, Australia",
     "work_begin":"January 2024",
     "work_end":"April 2024",
-    "task":["Closely partnered with founders to understand the business, define and propose core business KPIs, focusing on user engagement and learning outcomes.",
-	    "Developed and optimised SQL queries and BigQuery stored procedures, significantly improving data processing efficiency and supporting the analysis of large-scale user event data.",
-	    "Designed and maintained interactive dashboards in Metabase, delivering insightful visualizations that track user journeys and conversion metrics, enabling data-driven decision-making."],
-    "skill":["SQL", "BigQuery", "Metabase", "Data-Driven Decision Making"]
+    "task":[
+	"Collaborated closely with founders to define and implement core business KPIs, focusing on user engagement metrics and learning outcome analytics.",
+	"Developed and optimised scalable SQL queries and BigQuery stored procedures, significantly enhancing data ingestion and processing efficiency for large-scale user event data.",
+	"Designed and maintained robust data pipelines to ensure timely and accurate delivery of analytics-ready datasets.",
+	"Built interactive dashboards in Metabase to visualise user journeys, conversion metrics, and engagement patterns, enabling informed strategic decisions."
+	],
+     "skill":[
+	"SQL",
+	"BigQuery",
+	"Metabase",
+	"Data Pipeline Development",
+	"ETL Processes",
+	"Data Visualisation",
+	"Performance Optimisation"
+	]
     }, 
  {"experience":"AI Builder Fellow",
     "company":"Build Club",
@@ -329,11 +355,11 @@
  "cv_path":"https://drive.google.com/uc?export=download&id=1IM9jbFmKXRq3_3iHFhNazncCEgxtAdrb",
  "skills":{
     "computer_languages":{
-      "label": ["Python", "SQL", "R", "JavaScript", "HTML", "CSS"],
-      "point":[10, 10, 7, 4, 7, 7]
+      "label": ["Python", "SQL", "Bash", "JavaScript", "HTML", "CSS"],
+      "point":[10, 10, 6, 6, 7, 7]
     },
     "software_tools":{
-      "label":[["Metabase"], ["Tableau"], ["PowerBI"],["Jupyter","Notebook"],["Tensorflow"],["Sklearn"],["DBT"], ["Apache", "Hadoop"], ["AWS/", "Microsoft Azure"], ["Git"], ["React.Js"]],
+      "label":[["Metabase"], ["Tableau"], ["Segment"],["Jupyter","Notebook"],["Tensorflow"],["Sklearn"],["DBT"], ["Fivetran"], ["AWS/", "GCP"], ["Git"], ["Docker"]],
       "point":[9, 8, 9, 9, 8, 8, 7, 6, 7, 7, 8]
     },
     "softskills":{
@@ -341,7 +367,7 @@
       "point":[8, 9, 9, 8, 9, 8]
     },
     "knowledge":{
-      "label":[["Data","Modelling"], ["Data","Scraping"], ["Data", "Wrangling"], ["Database", "Management"], ["Data", "Exploratory","Analysis"], ["Data", "Visualisation"], ["Machine", "Learning"], ["Big", "Data"], ["Cloud", "Computing"], ["Web","Development"]],
+      "label":[["Data","Modelling"], ["Data","Scraping"], ["Data", "Wrangling"], ["Database", "Management"], ["ETL", "Pipeline"], ["Data", "Warehousing"], ["Machine", "Learning"], ["Big", "Data"], ["Cloud", "Computing"], ["Web","Development"]],
       "point":[8, 6, 9, 5, 9, 8, 8, 8, 7, 8]
     }
  }
